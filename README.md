@@ -1,0 +1,1 @@
+# asitech_frontend_static
