@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASI TECH | SaaS Solutions</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --dark:#040d1f;
+  --deep:#071530;
+  --mid:#0d2450;
+  --blue:#1a4a9c;
+  --sky:#2e80d8;
+  --ice:#5ab4f0;
+  --white:#f0f6ff;
+  --muted:rgba(240,246,255,.7);
+  --border:rgba(90,180,240,.25);
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+  font-family:"DM Sans",sans-serif;
+  background:linear-gradient(180deg,var(--dark),var(--deep));
+  color:var(--white);
+}
+
+section{padding:6rem 2rem}
+.container{max-width:1200px;margin:auto}
+
+h1,h2,h3{font-family:"Syne",sans-serif}
+h1{font-size:clamp(2.8rem,5vw,4.2rem)}
+h2{font-size:2.6rem;margin-bottom:1rem}
+h3{font-size:1.2rem}
+
+p{color:var(--muted);line-height:1.8}
+
+.hero{
+  text-align:center;
+  padding:9rem 2rem 7rem;
+  background:
+  radial-gradient(circle at top,rgba(46,128,216,.35),transparent 60%);
+}
+
+.hero span{
+  background:linear-gradient(90deg,var(--sky),var(--ice));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:2rem;
+  margin-top:3.5rem;
+}
+
+.card{
+  background:var(--mid);
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:2.5rem;
+  transition:.35s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  background:linear-gradient(180deg,var(--mid),#0f2f6b);
+}
+
+.icon{
+  font-size:2.4rem;
+}
+
+.highlight{
+  background:linear-gradient(135deg,var(--sky),var(--ice));
+  color:#021025;
+  padding:1.1rem 2.4rem;
+  border-radius:12px;
+  display:inline-block;
+  font-weight:600;
+  margin-top:2.5rem;
+}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:2rem;
+  text-align:center;
+  margin-top:4rem;
+}
+
+.stat h2{
+  font-size:3rem;
+  background:linear-gradient(90deg,var(--white),var(--ice));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+footer{
+  border-top:1px solid var(--border);
+  text-align:center;
+  padding:2.5rem;
+  font-size:.85rem;
+  color:var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>SaaS Platform<br><span>Software as a Service Solutions</span></h1>
+  <p style="max-width:720px;margin:auto">
+    ASI TECH delivers scalable SaaS solutions that help businesses run applications
+    over the cloud without installation. We build secure, multi-tenant platforms
+    designed for performance, automation, and global accessibility.
+  </p>
+  <div class="highlight">Cloud-Based • Scalable • Subscription-Ready</div>
+</section>
+
+<!-- OVERVIEW -->
+<section>
+  <div class="container">
+    <h2>Solution Overview</h2>
+    <p style="max-width:820px">
+      Our SaaS solutions enable organizations to deliver software over the internet
+      with high availability, automatic updates, and centralized management. From
+      CRM systems to AI-powered platforms, we build products that users can access
+      anytime, anywhere.
+    </p>
+  </div>
+</section>
+
+<!-- SEGMENTS -->
+<section>
+  <div class="container">
+    <h2>Deployment Segments</h2>
+    <div class="grid">
+
+      <div class="card">
+        <div class="icon">🏢</div>
+        <h3>Enterprise SaaS</h3>
+        <p>
+          Large-scale SaaS platforms for businesses including CRM, ERP,
+          analytics dashboards, and workflow automation systems.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">👤</div>
+        <h3>Consumer SaaS</h3>
+        <p>
+          Lightweight applications for individuals such as productivity tools,
+          AI assistants, and subscription-based services.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section>
+  <div class="container">
+    <h2>Core Features</h2>
+    <div class="grid">
+
+      <div class="card">
+        <div class="icon">☁️</div>
+        <h3>Cloud Delivery</h3>
+        <p>
+          Access applications directly from the browser without installation.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🔄</div>
+        <h3>Auto Updates</h3>
+        <p>
+          Continuous deployment ensures users always get the latest version.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🔐</div>
+        <h3>Secure Multi-Tenant</h3>
+        <p>
+          Isolated user environments with enterprise-grade security.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CAPABILITIES -->
+<section>
+  <div class="container">
+    <h2>Key Capabilities</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Subscription Systems</h3>
+        <p>
+          Built-in billing models with monthly and yearly subscription support.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>API Integration</h3>
+        <p>
+          Easily connect SaaS products with external services and APIs.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>High Scalability</h3>
+        <p>
+          Designed to handle thousands of users simultaneously without downtime.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TARGET USERS -->
+<section>
+  <div class="container">
+    <h2>Who Is It For?</h2>
+    <div class="stats">
+
+      <div class="stat">
+        <h2>Startups</h2>
+        <span>Launching SaaS Products</span>
+      </div>
+
+      <div class="stat">
+        <h2>SMEs</h2>
+        <span>Growing Businesses</span>
+      </div>
+
+      <div class="stat">
+        <h2>Enterprises</h2>
+        <span>Large Scale Platforms</span>
+      </div>
+
+      <div class="stat">
+        <h2>Global</h2>
+        <span>Online Users Worldwide</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 ASI TECH — SaaS Platform Solutions
+</footer>
+
+</body>
+</html>
